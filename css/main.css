@@ -204,6 +204,11 @@ border-right: none;
     margin: 0 auto;
 }
 
+.todays_recipes_image {
+    width: 46px;
+    height: 31px;
+}
+
 .todays_recipes_content_block_image img {
     height: 200px;
     width: 100%;
@@ -213,6 +218,7 @@ border-right: none;
 }
 
 .todays_recipes_headline {
+    display: flex;
     width: 100%;
     color: var(--background-color-light);
     height: 45px;
@@ -225,6 +231,7 @@ border-right: none;
 }
 
 .todays_recipes_content {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: var(--grid-gap);
