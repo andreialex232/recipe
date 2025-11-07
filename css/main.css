@@ -273,33 +273,81 @@ border-right: none;
     padding: 0 0 0 10px;
 }
 
-.todays_recipes_content_block_bottom_area_left p {
-    font-size: 12px;
+.todays_recipes_content_block_text_area_left p {
+    font-size: 13px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.todays_recipes_content_block_bottom_area_left p:last-child {
-    font-weight: 800;
+.todays_recipes_content_block_text_area_left p:last-child {
+    font-weight: 500;
 }
 
-div[data-category="seafood"] {
-    border-left: 1px solid var(--category-seafood);
-    
+.todays_recipes_content_block_text_top {
+    margin-bottom: 20px;
 }
+
+.todays_recipes_content_block_text_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todays_recipes_content_block_text_area_right_button {
+    background-color: var(--color_black);
+    padding: 8px 26px;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+}
+
+.todays_recipes_content_block_text_area_right_button:hover {
+    outline: none;
+}
+
+.todays_recipes_content_block_text_area_right_button a {
+    color: var(--color-light);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.meats-border {
+    border-left: 2px solid var(--category-meats);  
+    padding-left: 10px;
+}
+
+.chicken-border {
+    border-left: 2px solid var(--category-chicken);  
+    padding-left: 10px;
+}
+
+.dessert-border {
+    border-left: 2px solid var(--category-dessert);  
+    padding-left: 10px;
+}
+.seafood-border {
+    border-left: 2px solid var(--category-seafood);  
+    padding-left: 10px;
+}
+
+
 
 p[data-category="seafood"] {
     color: var(--category-seafood);
 }
 
-div[data-category="chicken"] {
-    border-left: 1px solid var(--category-chicken);
-    
-}
-
 p[data-category="chicken"] {
     color: var(--category-chicken);
 }
+
+p[data-category="dessert"] {
+    color: var(--category-dessert);
+}
+
+p[data-category="meats"] {
+    color: var(--category-meats);
+}
+
 
 .todays_recipes_content_block_bottom_area_right_button button {
     background-color: var(--color_black);
@@ -315,7 +363,7 @@ p[data-category="chicken"] {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 400; 
 }
 
 .hero-search-page {
@@ -411,3 +459,11 @@ p[data-category="chicken"] {
 .filter-category-checkbox input[type="radio"]#seafood {
   accent-color: var(--category-seafood);
 }
+/* 
+.filter-category-checkbox input[type="radio"]#dessert {
+  accent-color: var(--category-dessert);
+}
+
+.filter-category-checkbox input[type="radio"]#meats {
+  accent-color: var(--category-meats);
+} */
