@@ -1,0 +1,28 @@
+:root {
+    /* Dimensions  */
+    --width-full: 100%;
+    --width-12col: 1200px; 
+
+    /* grid settings */
+    --grid-gap: 10px;
+    --padding-default:20px;
+
+    /* colours */
+    --background-color-navigation: #00000088;
+    --background-color-light: #ededed;
+    --background-color-dark-bg:#111111;
+    --primary-color:#bf5b23;
+    --secondary-color:#ffffff;
+    --color_black: #373737;
+    --color-light:#ebebeb;
+    --color-grey:#ffffffb3;
+
+    /* color swatches */
+    --category-seafood: #3e30e2;
+    --category-chicken: #249cbe;
+    --category-meats: #d09189;
+    --category-veg: #298f3f;
+    --category-dessert: #9374eb;
+    --category-misc: #9A951E;
+    --category-pasta: #BF5B23;
+}
