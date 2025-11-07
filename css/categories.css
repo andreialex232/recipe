@@ -1,0 +1,69 @@
+@import url(fonts.css);
+@import url(variables.css);
+
+.category_section {
+  margin-top: 70px;
+}
+
+.category_section_headline {
+  color: var(--background-color-light);
+  font-size: 37px;
+  border-bottom: 1px solid var(--background-color-light);
+  width: var(--width-12col);
+  margin: 0 auto;
+}
+
+.category_section_foods {
+  background-color: var(--background-color-light);
+  display: flex;
+  width: var(--width-12col);
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 10px 50px 10px 50px;
+  margin-top: 20px;
+}
+
+.category_section_foods_specific {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.category_section_foods_specific p {
+  font-weight: 700;
+}
+
+.category_section_foods_specific_svg {
+  width: 80px;
+  height: 50px;
+}
+
+.category_section_foods_specific_svg_vegetarian {
+  filter: brightness(0) saturate(100%) invert(41%) sepia(79%) saturate(429%) hue-rotate(81deg) brightness(93%) contrast(89%);
+}
+
+.category_section_foods_specific_svg_seafood {
+  filter: brightness(0) saturate(100%) invert(24%) sepia(87%) saturate(7498%) hue-rotate(248deg) brightness(89%) contrast(98%);
+}
+
+.category_section_foods_specific_svg_pastas {
+  filter: brightness(0) saturate(100%) invert(43%) sepia(20%) saturate(2419%) hue-rotate(342deg) brightness(90%) contrast(90%);
+}
+
+.category_section_foods_specific_svg_chicken {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(98%) saturate(322%) hue-rotate(124deg) brightness(91%) contrast(90%);
+}
+
+.category_section_foods_specific_svg_snacks {
+  filter: brightness(0) saturate(100%) invert(57%) sepia(81%) saturate(421%) hue-rotate(20deg) brightness(84%) contrast(87%);
+}
+
+.category_section_foods_specific_svg_meats {
+  filter: brightness(0) saturate(100%) invert(25%) sepia(53%) saturate(2179%) hue-rotate(341deg) brightness(99%) contrast(93%);
+}
+
+.category_section_foods_specific_svg_dessert {
+  filter: brightness(0) saturate(100%) invert(49%) sepia(13%) saturate(4180%) hue-rotate(220deg) brightness(102%) contrast(84%);
+}
