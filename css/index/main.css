@@ -279,24 +279,6 @@ border-right: none;
     align-items: center;
 }
 
-.todays_recipes_content_block_text_area_right_button {
-    background-color: var(--color_black);
-    padding: 8px 26px;
-    border-radius: 5px;
-    outline-style: none;
-    border: none;
-}
-
-.todays_recipes_content_block_text_area_right_button:hover {
-    outline: none;
-}
-
-.todays_recipes_content_block_text_area_right_button a {
-    color: var(--color-light);
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
 .meats-border {
     border-left: 2px solid var(--category-meats);  
     padding-left: 10px;
