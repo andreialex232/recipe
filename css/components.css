@@ -1,3 +1,5 @@
+/* Buttons */
+
 .btn:hover {
   outline: none;
 }
@@ -21,4 +23,23 @@
 .btn-medium {
   padding: 12px 60px;
   font-size: 18px;
+}
+
+
+
+
+
+/* Divider */
+
+.divider {
+  margin-top: 70px;
+  color: var(--background-color-light);
+  font-size: 37px;
+  border-bottom: 1px solid var(--background-color-light);
+  width: var(--width-12col);
+  margin: 0 auto;
+}
+
+.new-section {
+  margin-top: 70px;
 }
