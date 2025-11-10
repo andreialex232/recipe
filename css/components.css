@@ -42,3 +42,16 @@
 .new-section {
   margin-top: 70px;
 }
+
+/* Anchors */
+
+.ext_link {
+  color: var(--color-black);
+  opacity: 75%;
+  text-decoration: none;
+}
+
+.ext_link_white {
+  color: var(--color-light);
+  text-decoration: underline;
+}
