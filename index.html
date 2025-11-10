@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index/main.css">
     <link rel="stylesheet" href="css/index/categories.css">
     <link rel="stylesheet" href="css/index/image_section.css">
+    <link rel="stylesheet" href="css/index/in_the_kitchen.css">
+    
 </head>
 
 <body>
@@ -78,9 +82,7 @@
                             </div>
                             <div class="todays_recipes_content_block_text_area_right">
                                 <div class="">
-                                    <button class="todays_recipes_content_block_text_area_right_button">
-                                        <a href="">How to</a>
-                                    </button>
+                                    <a class="btn btn-small" href="">How to</a>
                                 </div>
                             </div>
                         </div>
@@ -106,9 +108,7 @@
                             </div>
                             <div class="todays_recipes_content_block_text_area_right">
                                 <div class="">
-                                    <button class="todays_recipes_content_block_text_area_right_button">
-                                        <a href="">How to</a>
-                                    </button>
+                                    <a class="btn btn-small" href="">How to</a>
                                 </div>
                             </div>
                         </div>
@@ -134,9 +134,7 @@
                             </div>
                             <div class="todays_recipes_content_block_text_area_right">
                                 <div class="">
-                                    <button class="todays_recipes_content_block_text_area_right_button">
-                                        <a href="">How to</a>
-                                    </button>
+                                    <a class="btn btn-small" href="">How to</a>
                                 </div>
                             </div>
                         </div>
@@ -162,9 +160,7 @@
                             </div>
                             <div class="todays_recipes_content_block_text_area_right">
                                 <div class="">
-                                    <button class="todays_recipes_content_block_text_area_right_button">
-                                        <a href="">How to</a>
-                                    </button>
+                                    <a class="btn btn-small" href="">How to</a>
                                 </div>
                             </div>
                         </div>
@@ -175,8 +171,8 @@
     </section>
 
     <!-- categories area -->
-    <section class="category_section">
-        <div class="category_section_headline">
+    <section class="new-section">
+        <div class="divider">
             <h2>CATEGORY SELECTION</h2>
         </div>
         <div class="category_section_foods">
@@ -237,45 +233,56 @@
     </section>
 
     <!-- in the kitchen area -->
-    <section class="kitchen_area">
-        <div class="kitchen_area_plating_container">
-            <div class="kitchen_area_plating_text">
-                <p>How to plate as a pro</p>
-                <p>Big brawl in the kitchen. Who takes it?</p>
-                <p>Winner gets to take home the desserts</p>
-                <p>Losers can wave goodbye!</p>
-                <button>PLATING</button>
+    <section class="new-section">
+        <h2 class="divider">CATEGORY SELECTION</h2>
+        <div class="kitchen_area">
+            <div class="kitchen_area_plating_container">
+                <div class="kitchen_area_plating_text">
+                    <p class="kitchen_area_title">In the Kitchen</p>
+                    <p class="kitchen_area_headline">How to plate as a pro</p>
+                    <p class="kitchen_area_text">Big brawl in the kitchen. Who takes it?</p>
+                    <p class="kitchen_area_text">Winner gets to take home the desserts</p>
+                    <p class="kitchen_area_text">Losers can wave goodbye!</p>
+                    <div class="kitchen_area_button">
+                        <a class="btn btn-medium" href="">recipe</a>
+                    </div>
+                </div>
+                <div class="kitchen_area_plating_image_container">
+                    <img class="kitchen_area_plating_image" src="images/index/plating.jpg" alt="Image of a man putting sauce on food">
+                </div>
             </div>
-            <div class="kitchen_area_plating_image_container">
-                <img class="kitchen_area_plating_image" src="images/index/plating.jpg" alt="Image of a man putting sauce on food">
+            <div class="kitchen_area_recipes_container">
+                <div class="kitchen_area_recipes_image_container">
+                    <img class="kitchen_area_recipes_image" src="images/index/how_to_recipe.jpg" alt="Image of a recipe and food decorations">
+                </div>
+                <div class="kitchen_area_recipes_text">
+                    <p class="kitchen_area_title">In the Kitchen</p>
+                    <p class="kitchen_area_headline">Recipes are for...</p>
+                    <p class="kitchen_area_text">Big brawl in the kitchen. Who takes it?</p>
+                    <p class="kitchen_area_text">Winner gets to take home the desserts</p>
+                    <p class="kitchen_area_text">Losers can wave goodbye!</p>
+                    <div class="kitchen_area_button">
+                        <a class="btn btn-medium" href="">plating</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="kitchen_area_recipes_container">
-            <div class="kitchen_area_recipes_image_container">
-                <img class="kitchen_area_recipe_image" src="images/index/how_to_recipe.jpg" alt="Image of a recipe and food decorations">
-            </div>
-            <div class="kitchen_area_recipes_text">
-                <p>Recipes are for...</p>
-                <p>Big brawl in the kitchen. Who takes it?</p>
-                <p>Winner gets to take home the desserts</p>
-                <p>Losers can wave goodbye!</p>
-                <button>RECIPE</button>
-            </div>
-        </div>
-        <div class="kitchen_area_basting_container">
-            <div class="kitchen_area_basting_text">
-                <p>Meats - How to baste</p>
-                <p>Big brawl in the kitchen. Who takes it?</p>
-                <p>Winner gets to take home the desserts</p>
-                <p>Losers can wave goodbye!</p>
-                <button>GUIDES</button>
-            </div>
-            <div class="kitchen_area_basting_image_container">
-                <img class="kitchen_area_basting_image" src="images/index/basting.jpg" alt="Image of a man basting">
+            <div class="kitchen_area_basting_container">
+                <div class="kitchen_area_basting_text">
+                    <p class="kitchen_area_title">In the Kitchen</p>
+                    <p class="kitchen_area_headline">Meats - How to baste</p>
+                    <p class="kitchen_area_text">Big brawl in the kitchen. Who takes it?</p>
+                    <p class="kitchen_area_text">Winner gets to take home the desserts</p>
+                    <p class="kitchen_area_text">Losers can wave goodbye!</p>
+                    <div class="kitchen_area_button">
+                        <a class="btn btn-medium" href="">guides</a>
+                    </div>
+                </div>
+                <div class="kitchen_area_basting_image_container">
+                    <img class="kitchen_area_basting_image" src="images/index/basting.jpg" alt="Image of a man basting">
+                </div>
             </div>
         </div>
     </section>
-
     <!-- footer area -->
     <section class="footer_area">
 
