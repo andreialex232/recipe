@@ -1,0 +1,62 @@
+.kitchen_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.kitchen_area_headline {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-bottom: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.kitchen_area_button {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  text-transform: uppercase;
+}
+
+.kitchen_area_title {
+  border-left: 2px solid var(--primary-color);
+  padding-left: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  opacity: 85%;
+}
+
+.kitchen_area_text {
+  opacity: 70%;
+}
+
+.kitchen_area_text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-left: 100px;
+  width: 600px;
+  height: 400px;
+}
+
+.kitchen_area_image {
+  width: 600px;
+  height: 400px;
+}
+
+.kitchen_area_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.kitchen_area_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
