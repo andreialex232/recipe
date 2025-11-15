@@ -55,3 +55,13 @@
   color: var(--color-light);
   text-decoration: underline;
 }
+
+/* BACKGROUNDS */
+
+.white-bg {
+    background-color: var(--color-background-light);
+}
+
+.grey-bg {
+    background-color: var(--color_black);
+}

@@ -189,6 +189,7 @@ border-right: none;
 }
 
 .todays_recipes_content_block_image img {
+    
     height: 200px;
     width: 100%;
     background-size: cover;
@@ -434,3 +435,8 @@ p[data-category="meats"] {
 .filter-category-checkbox input[type="radio"]#meats {
   accent-color: var(--category-meats);
 } */
+
+spicy {
+    perspective: 1000px;
+    transform: translateZ(500px);
+}
