@@ -108,8 +108,8 @@ border-right: none;
 }
 
 .hero{
-    background-image: url("https://picsum.photos/1200/800");
-    min-height: 600px;
+    background-image: url("../../images/index/hero_image.jpg");
+    min-height: 700px;
     height: auto;
     background-size: cover;
     background-position: center center;
