@@ -1,4 +1,5 @@
 .footer {
+  margin-top: 270px;
   display: flex;
   justify-content: space-around;
   background-color: var(--primary-color);
