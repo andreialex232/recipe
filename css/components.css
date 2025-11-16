@@ -65,3 +65,32 @@
 .grey-bg {
     background-color: var(--color_black);
 }
+
+
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+/* Colors */
+
+.primary {
+  color: var(--primary-color);
+}
+
+.bolded {
+  font-weight: 800;
+}
+
+/* Headers */ 
+
+.h2-uppercase-big {
+  font-size: 37px;
+  text-transform: uppercase;
+}
+
+.h2-uppercase-small {
+  font-size: 14px;
+  text-transform: uppercase;
+}
