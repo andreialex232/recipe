@@ -82,15 +82,3 @@
 .bolded {
   font-weight: 800;
 }
-
-/* Headers */ 
-
-.h2-uppercase-big {
-  font-size: 37px;
-  text-transform: uppercase;
-}
-
-.h2-uppercase-small {
-  font-size: 14px;
-  text-transform: uppercase;
-}
