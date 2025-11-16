@@ -6,7 +6,6 @@
 
 .btn {
   background-color: var(--color_black);
-  
   outline-style: none;
   border: none;
   color: var(--color-light);
@@ -23,6 +22,22 @@
 .btn-medium {
   padding: 12px 60px;
   font-size: 18px;
+}
+
+.btn-inversed-with-icon {
+    cursor: pointer;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    gap: .5rem;
+    padding: 4px 12px;
+    font-size: 16px;
+    outline-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    background-color: var(--background-color-dark-bg);
 }
 
 
@@ -43,6 +58,9 @@
   margin-top: 70px;
 }
 
+.border-top {
+  border-top: 1px solid var(--background-color-light);
+}
 /* Anchors */
 
 .ext_link {

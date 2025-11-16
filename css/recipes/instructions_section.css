@@ -1,0 +1,12 @@
+.instructions {
+  margin-top: 70px;
+}
+
+.instructions_content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  width: 1000px;
+}
