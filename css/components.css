@@ -40,6 +40,24 @@
     background-color: var(--background-color-dark-bg);
 }
 
+.send:hover {
+  transform: translateY(-3px);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+.send:active {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.send:focus {
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
 
 
 
