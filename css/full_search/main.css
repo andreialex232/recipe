@@ -1,0 +1,150 @@
+.hero-search-page {
+    background-color: var(--background-color-dark);
+    background-image: linear-gradient(0deg, #ededed00, #ededed07);
+    min-height: 450px;
+    padding-top: 50px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: var(--background-color-light);
+    margin: 0;
+    border-bottom: 1px solid var(--background-color-dark);
+}
+
+.search-box-search-page {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+    margin: 60px 0 0 0;
+}
+
+.search-input {
+    background-color: transparent;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid var(--background-color-light);
+    border-radius: 5px;
+    outline: none;
+    color: var(--background-color-light);
+    margin: 0 0 10px 0;
+}
+
+.search-input::placeholder {
+    color: var(--color-light);
+}
+
+.fullsearch-headliner {
+    width: 100%;
+    color: var(--color-light);
+    margin: 0 0 15px 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.filter-category-checkbox {
+    background-color: var(--background-color-dark);
+    background-image: linear-gradient(90deg, #ededed11, #ededed07);
+    grid-column: 6 / span 7;
+    grid-row: 2;
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.filter-category-checkbox h3 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Radio */
+.filter-category-checkbox label {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px;
+    color: var(--background-color-light);
+    font-size: 14px;
+    font-weight: 100;
+    width: 50%;
+    height: 20px;
+}
+
+.filter-category-checkbox input[type="radio"] {
+    margin-right: 10px;
+    height: 22px;
+    width: 22px;
+    border-radius: 100%;
+    border: 2px solid var(--color-light);
+    cursor: pointer;
+}
+
+.filter-category-checkbox input[type="radio"]#chicken {
+    accent-color: var(--category-chicken);
+}
+
+.filter-category-checkbox input[type="radio"]#seafood {
+    accent-color: var(--category-seafood);
+}
+
+.filter-category-checkbox input[type="radio"]#meats {
+    accent-color: var(--category-meats);
+}
+
+.filter-category-checkbox input[type="radio"]#vegetarian {
+    accent-color: var(--category-veg);
+}
+
+.filter-category-checkbox input[type="radio"]#dessert {
+    accent-color: var(--category-dessert);
+}
+
+.filter-category-checkbox input[type="radio"]#miscellous {
+    accent-color: var(--category-misc);
+}
+
+.filter-category-checkbox input[type="radio"]#pasta {
+    accent-color: var(--category-pasta);
+}
+
+.serp {
+    color: var(--color-light);
+    display: grid;
+    width: var(--width-12col);
+    margin: 0 auto;
+}
+
+
+.serp-items {
+    border-bottom: 1px solid var(--background-color-light);
+    padding: 40px 0;
+}
+
+.border-right-chicken {
+    border-left: 5px solid var(--category-chicken);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.border-right-seafood {
+    border-left: 5px solid var(--category-seafood);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.serp-text {
+    padding-top: 20px;
+}
+
+.chicken {
+    color: var(--category-chicken);
+}
+
+.seafood {
+    color: var(--category-seafood);
+}
