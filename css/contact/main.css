@@ -64,16 +64,17 @@ form {
   gap: 15px;
 }
 
-.send {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 18px;
-  text-transform: uppercase;
-  background-color: var(--primary-color);
-  color: var(--color-light);
-  border-radius: 5px;
-  outline: none;
-  border:none;
-  transition: all 0.2s linear;
-  cursor: pointer;
+@media (max-width: 912px) {
+  section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 912px) {
+  .hero-text-contact p {
+    padding: 20px;
+  }
 }
