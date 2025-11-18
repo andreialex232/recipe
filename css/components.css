@@ -47,6 +47,20 @@
     background-color: var(--background-color-dark-bg);
 }
 
+.send {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--color-light);
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  transition: all 0.2s linear;
+  cursor: pointer;
+}
+
 .send:hover {
   transform: translateY(-3px);
   background-color: var(--secondary-color);
