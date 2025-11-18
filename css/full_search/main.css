@@ -148,3 +148,17 @@
 .seafood {
     color: var(--category-seafood);
 }
+
+@media (max-width:1200px) {
+    .serp {
+
+        width: var(--width-8col);
+
+    }
+}
+
+@media (max-width:932px) {
+    .hero-container {
+        margin-top: 50px;
+    }
+}
