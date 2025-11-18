@@ -10,3 +10,40 @@
   list-style: none;
   width: 1000px;
 }
+
+@media (max-width: 1000px) {
+  .instructions_content {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .instructions_content {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 1106px) {
+  .instructions_content li {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+  }
+}
+
+@media (max-width:1106px) {
+  .instructions h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+}
+
+@media (max-width:912px) {
+  .instructions h2 {
+    font-size: 22px;
+  }
+}
