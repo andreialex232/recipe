@@ -24,6 +24,13 @@
   font-size: 18px;
 }
 
+@media (max-width:800px) {
+  .btn-medium {
+    font-size: 12px;
+    padding: 12px 40px;
+  }
+}
+
 .btn-inversed-with-icon {
     cursor: pointer;
     border: 1px solid var(--secondary-color);
@@ -70,6 +77,18 @@
   border-bottom: 1px solid var(--background-color-light);
   width: var(--width-12col);
   margin: 0 auto;
+}
+
+@media (max-width:1200px) {
+  .divider {
+    width: var(--width-8col);
+  }
+}
+
+@media (max-width:600px) {
+  .divider {
+    width: var(--width-6col);
+  }
 }
 
 .new-section {

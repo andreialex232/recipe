@@ -189,7 +189,6 @@ border-right: none;
 }
 
 .todays_recipes_content_block_image img {
-    
     height: 200px;
     width: 100%;
     background-size: cover;
@@ -440,3 +439,54 @@ spicy {
     perspective: 1000px;
     transform: translateZ(500px);
 }
+
+@media (max-width:1200px) {
+    .todays_recipes,
+    .categories,
+    .content-area,
+    .hero-container,
+    .todays_recipes_content {
+        width: var(--width-8col);
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1200px) {
+    .todays_recipes_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1200px) {
+    .todays_recipes_headline {
+        justify-content: center;
+    }
+}
+
+@media (max-width:1200px) {
+    .todays_recipes_content_block_image img {
+        height: 250px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+
+@media (max-width:600px) {
+    .todays_recipes,
+    .todays_recipes_content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+

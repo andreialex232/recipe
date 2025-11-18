@@ -60,3 +60,98 @@
   align-items: center;
   background-color: white;
 }
+
+@media (max-width:1200px) {
+  .kitchen_area_image, 
+  .kitchen_area_text_container {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media (max-width:1010px) {
+  .kitchen_area_image, 
+  .kitchen_area_text_container {
+    width: 400px;
+    height: 250px;
+  }
+}
+
+@media (max-width:800px) {
+  .kitchen_area_image, 
+  .kitchen_area_text_container {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+
+
+@media (max-width:1200px) {
+  .kitchen_area_text_container {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:1010px) {
+  .kitchen_area_text_container {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:800px) {
+  .kitchen_area_text_container {
+    padding-left: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width:1200px) {
+  .kitchen_area_headline {
+    font-size: 26px;
+  }
+}
+
+@media (max-width:1010px) {
+  .kitchen_area_headline {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:800px) {
+  .kitchen_area_headline {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:1200px) {
+  .kitchen_area_title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:1010px) {
+  .kitchen_area_title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:800px) {
+  .kitchen_area_button {
+    margin-top: 1rem;
+    padding-top: 1.2rem;
+    text-transform: uppercase;
+  }
+}
+
+@media(max-width: 700px) {
+  .kitchen_area_container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:700px) {
+  .kitchen_area {
+    gap: 2rem;
+  }
+}

@@ -52,3 +52,36 @@
 .category_section_foods_specific_svg_dessert {
   filter: brightness(0) saturate(100%) invert(49%) sepia(13%) saturate(4180%) hue-rotate(220deg) brightness(102%) contrast(84%);
 }
+
+@media (max-width: 1200px) {
+  .category_section_foods {
+    width: var(--width-8col);
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 800px) {
+  .category_section_foods {
+    width: var(--width-6col)
+  }
+}
+
+@media (max-width: 600px) {
+  .category_section_foods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+    width: 200px;
+    gap: 1rem;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .new-section h2 {
+  text-align: center;
+}
+}

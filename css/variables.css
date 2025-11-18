@@ -2,6 +2,8 @@
     /* Dimensions  */
     --width-full: 100%;
     --width-12col: 1200px; 
+    --width-8col: 800px; 
+    --width-8col: 600px; 
 
     /* grid settings */
     --grid-gap: 10px;
